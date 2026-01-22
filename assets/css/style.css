@@ -1,0 +1,7 @@
+/* style.css */
+@import 'hero.css';
+@import 'about.css';
+@import 'contact.css';
+
+/* Global Style */
+body { font-family: sans-serif; margin: 0; padding: 0; }
