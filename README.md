@@ -31,3 +31,5 @@ Aplikasi ini menyediakan fitur **monitoring lahan, pencatatan hasil panen, hingg
 1. Clone repo:
 ```bash
 git clone https://github.com/Versaicce/MySawah-Web-Project.git
+
+2. Kemudian buka website preview dengan Live Server
