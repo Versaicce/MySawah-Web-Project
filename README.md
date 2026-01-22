@@ -14,16 +14,15 @@
 
 ## ⚡ Fitur Utama
 - Pendaftaran & Login pengguna
-- Dashboard lahan pertanian
-- Pencatatan aktivitas & hasil panen
-- Informasi tips & panduan pertanian kreatif
-- Tampilan responsif dan modern
+- Online Marketplace, Pemesanan kebutuhan pertanian secara online
+- Rekomendasi suatu tanaman utama dan hubungannya dengan tanaman pendamping
+- Tampilan responsif dan minimalis
 
 ---
 
 ## 🌟 Teknologi yang Digunakan
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP / Laravel (sesuaikan)
+- **Backend:** PHP / Laravel (sesuaikan, next time)
 - **Database:** MySQL
 - **Version Control:** Git & GitHub
 
