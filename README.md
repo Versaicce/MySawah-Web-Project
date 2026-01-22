@@ -8,7 +8,7 @@
 
 ## MySawah - Web Project 🌱
 
-**MySawah** adalah sebuah website promosi tentang aplikasi mobile MySawah yang digunakan untuk membantu **petani kreatif** dalam mengelola lahan secara digital. Aplikasi ini menyediakan fitur **monitoring lahan, pencatatan hasil panen, hingga tips pertanian** dalam satu platform yang mudah digunakan.
+**MySawah** adalah sebuah website pengenalan aplikasi mobile MySawah yang kami buat dalam team project Mobile Apps, aplikasi MySawah dikembangkan untuk membantu ** para petani kreatif** dalam membeli kebutuhan pertaniannya secara digital melalui aplikasi, dengan Online Marketplace. Aplikasi ini menyediakan fitur **Rekomendasi sebuah tanaman utama berdasarkan lahan anda dan hubungan dengan tanaman pendamping** dalam satu platform yang mudah digunakan (user-friendly).
 
 ---
 
