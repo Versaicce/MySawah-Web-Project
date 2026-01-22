@@ -165,14 +165,14 @@ strong {
     box-shadow: 0 8px 15px rgba(81, 86, 47, 0.2);
 }
 
-.btn-primary {
+.btn-primary2 {
     background: linear-gradient(135deg, var(--primary-olive) 0%, #6A7045 100%);
     color: #fff;
     position: relative;
     overflow: hidden;
 }
 
-.btn-primary:hover {
+.btn-primary2:hover {
     transform: translateY(-2px);
     box-shadow: 0 12px 25px rgba(81, 86, 47, 0.35);
     background: linear-gradient(135deg, #3E4224 0%, #51562F 100%);

@@ -1,222 +1,441 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MySawah - Solusi Pertanian Modern</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/about.css">
-    <link rel="stylesheet" href="assets/css/contact.css">
-    
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Roboto', sans-serif; }
-    </style>
-</head>
-<body>
 
-    <header id="hero-section">
-        </header>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- # CSS STYLESHEETS -->
+    <link rel="stylesheet" href="assets/css/about.css" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
+    <link rel="stylesheet" href="assets/css/hero.css" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+  </head>
+
+  <!-- CONTENT WEB -->
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="logo">
+        <img src="assets/img/logo_mysawahapps.png" alt="Logo MySawah" class="logo-img" />
+        My<span style="font-size: 40px">S</span>AWAH
+      </div>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search..." />
+      </div>
+
+      <div class="nav-right">
+        <a href="#" class="nav-link">Explore ▾</a>
+        <button class="btn-signin">Sign In</button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="welcome">Selamat Datang!</p>
+        <h1>MySawah - Apps</h1>
+        <p class="subtitle">Sebuah Aplikasi untuk lahan<br />Petani Kreatif</p>
+
+        <div class="hero-buttons">
+          <button class="btn-primary">Sign Up</button>
+          <button class="btn-install">Install</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Collection -->
+    <section class="featured-collection">
+      <div class="featured-wrapper">
+        <!-- TEXT LEFT -->
+        <div class="featured-text">
+          <span class="featured-label">FEATURED</span>
+          <h2>
+            Solusi cerdas <br />
+            <span>kebutuhan pertanian</span> untuk <br />
+            hasil panen terbaik.
+          </h2>
+          <p style="text-align: justify">
+            mySawah adalah aplikasi marketplace pertanian yang membantu petani
+            memenuhi kebutuhan usaha tani sekaligus memberikan rekomendasi
+            tanaman utama dan tanaman pendamping yang tepat sesuai kondisi
+            lahan.
+          </p>
+
+          <a href="#" class="btn-primary">Unduh Sekarang</a>
+        </div>
+
+        <!-- IMAGE RIGHT -->
+        <div class="featured-images">
+          <div class="featured-card">
+            <img src="assets/img/0_welcome.png" alt="" />
+          </div>
+          <div class="featured-card">
+            <img src="assets/img/2_home.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Items Slider -->
+    <section class="product-items">
+      <!-- CATEGORY NAV -->
+      <div class="product-nav">
+        <span class="active">Semua Produk</span>
+        <span>Bibit Tanaman</span>
+        <span>Pupuk</span>
+        <span>Alat Pertanian</span>
+        <span>Pestisida</span>
+        <span>Vitamin</span>
+      </div>
+
+      <!-- SLIDER -->
+      <div class="items-wrapper">
+        <button class="item-btn right" id="itemPrev">
+          <span class="material-icons">arrow_back_ios</span>
+        </button>
+
+        <div class="items-container">
+          <div class="items-track" id="itemsTrack">
+            <!-- ITEM -->
+            <div class="item-card">
+              <img src="assets/img/bibit1.jpg" alt="Product" />
+              <h4>Bibit Semangka</h4>
+              <span class="label">Harga</span>
+              <div class="price">Rp 21.000</div>
+              <button class="btn-small">Beli sekarang</button>
+            </div>
+
+            <div class="item-card">
+              <img src="assets/img/bibit2.jpg" alt="Product" />
+              <h4>Bibit Terong</h4>
+              <span class="label">Harga</span>
+              <div class="price">Rp 17.000</div>
+              <button class="btn-small">Beli Sekarang</button>
+            </div>
+
+            <div class="item-card">
+              <img src="assets/img/bibit3.jpg" alt="Product" />
+              <h4>Terong Bulat Hijau</h4>
+              <span class="label">Harga</span>
+              <div class="price">Rp 26.000</div>
+              <button class="btn-small">Beli Sekarang</button>
+            </div>
+
+            <div class="item-card">
+              <img src="assets/img/bibit4.jpg" alt="Product" />
+              <h4>Bibit Wortel</h4>
+              <span class="label">Harga</span>
+              <div class="price">Rp 14.000</div>
+              <button class="btn-small">Beli Sekarang</button>
+            </div>
+
+            <div class="item-card">
+              <img src="assets/img/bibit5.jpg" alt="Product" />
+              <h4>Bibit Jagung</h4>
+              <span class="label">Harga</span>
+              <div class="price">Rp 18.500</div>
+              <button class="btn-small">Beli Sekarang</button>
+            </div>
+
+            <div class="item-card">
+              <img src="assets/img/bibit6.jpg" alt="Product" />
+              <h4>Bibit Padi</h4>
+              <span class="label">Harga</span>
+              <div class="price">Rp 29.000</div>
+              <button class="btn-small">Beli Sekarang</button>
+            </div>
+
+            <div class="item-card">
+              <img src="assets/img/bibit7.jpg" alt="Product" />
+              <h4>Padi Hibrida</h4>
+              <span class="label">Harga</span>
+              <div class="price">Rp 26.000</div>
+              <button class="btn-small">Beli Sekarang</button>
+            </div>
+
+            <div class="item-card">
+              <img src="assets/img/bibit8.jpg" alt="Product" />
+              <h4>Bibit Cabai</h4>
+              <span class="label">Harga</span>
+              <div class="price">Rp 17.400</div>
+              <button class="btn-small">Beli Sekarang</button>
+            </div>
+
+            <div class="item-card">
+              <img src="assets/img/bibit9.jpg" alt="Product" />
+              <h4>Melon F1 Luna</h4>
+              <span class="label">Harga</span>
+              <div class="price">Rp 34.000</div>
+              <button class="btn-small">Beli Sekarang</button>
+            </div>
+
+            <div class="item-card">
+              <img src="assets/img/bibit10.jpg" alt="Product" />
+              <h4>Bibit Kacang Panjang</h4>
+              <span class="label">Harga</span>
+              <div class="price">Rp 27.000</div>
+              <button class="btn-small">Beli Sekarang</button>
+            </div>
+          </div>
+        </div>
+
+        <button class="item-btn right" id="itemNext">
+          <span class="material-icons">arrow_forward_ios</span>
+        </button>
+      </div>
+    </section>
 
     <section id="about-section">
-        <div class="section-padding">
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="col-half">
-                        <div class="section-header">
-                            <h6 class="sub-title">Tentang MySawah</h6>
-                            <h1 class="section-title" >Solusi Pertanian Modern Berbasis AI & E-Commerce</h1>
-                        </div>
-                        
-                        <p>MySawah adalah aplikasi Android modern yang dirancang untuk membantu petani meningkatkan produktivitas. Melalui integrasi teknologi <strong>Kecerdasan Buatan (AI)</strong>, kami memberikan rekomendasi tanaman terbaik berdasarkan analisis tanah presisi, sekaligus mempermudah belanja kebutuhan tani melalui <strong>Smart Marketplace</strong> yang responsif.</p>
-                        
-                        <div class="feature-grid">
-                            <div class="feature-item">
-                                <i class="fa fa-robot"></i>AI Crop Recommendation
-                            </div>
-                            <div class="feature-item">
-                                <i class="fa fa-shopping-cart"></i>Smart Marketplace
-                            </div>
-                            <div class="feature-item">
-                                <i class="fa fa-file-invoice-dollar"></i>Transaction History
-                            </div>
-                            <div class="feature-item">
-                                <i class="fa fa-user-cog"></i>Smart Profile Manager
-                            </div>
-                        </div>
+      <div class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-half">
+              <div class="section-header">
+                <h6 class="sub-title">Tentang MySawah</h6>
+                <h1 class="section-title">
+                  Solusi Pertanian Modern Berbasis AI & E-Commerce
+                </h1>
+              </div>
 
-                        <div class="action-area">
-                            <a class="btn btn-primary" href="#">Pelajari Lebih Lanjut</a>
-                            <a class="social-btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="social-btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="social-btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="social-btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
+              <p>
+                MySawah adalah aplikasi Android modern yang dirancang untuk
+                membantu petani meningkatkan produktivitas. Melalui integrasi
+                teknologi <strong>Kecerdasan Buatan (AI)</strong>, kami
+                memberikan rekomendasi tanaman terbaik berdasarkan analisis
+                tanah presisi, sekaligus mempermudah belanja kebutuhan tani
+                melalui <strong>Smart Marketplace</strong> yang responsif.
+              </p>
 
-                    <div class="col-half img-container">
-                        <img class="img-fluid animate-zoom" src="img/about.png" alt="Aplikasi MySawah">
-                    </div>
-
+              <div class="feature-grid">
+                <div class="feature-item">
+                  <i class="fa fa-robot"></i>AI Crop Recommendation
                 </div>
+                <div class="feature-item">
+                  <i class="fa fa-shopping-cart"></i>Smart Marketplace
+                </div>
+                <div class="feature-item">
+                  <i class="fa fa-file-invoice-dollar"></i>Transaction History
+                </div>
+                <div class="feature-item">
+                  <i class="fa fa-user-cog"></i>Smart Profile Manager
+                </div>
+              </div>
+
+              <div class="action-area">
+                <a class="btn btn-primary2" href="#">Pelajari Lebih Lanjut</a>
+                <a class="social-btn" href="#"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a class="social-btn" href="#"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a class="social-btn" href="#"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a class="social-btn" href="#"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
             </div>
+
+            <div class="col-half img-container">
+              <img
+                class="img-fluid animate-zoom"
+                src="assets/img/about.png"
+                alt="Aplikasi MySawah"
+              />
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="contact" class="clean-contact-section">
-        <div class="container">
-            
-            <div class="contact-wrapper">
-                <div class="contact-content">
-                    <h2 class="section-title" >Hubungi Kami</h2>
-                    <p class="section-desc">
-                        Kami berkomitmen membantu kebutuhan pertanian Anda. 
-                        Hubungi kami untuk berdiskusi tentang pertanian Anda.
-                    </p>
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-content">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <p class="section-desc">
+              Kami berkomitmen membantu kebutuhan pertanian Anda. Hubungi kami
+              untuk berdiskusi tentang pertanian Anda.
+            </p>
 
-                    <div class="contact-details">
-                        <div class="detail-item">
-                            <div class="icon-box">
-                                <i class="far fa-envelope"></i>
-                            </div>
-                            <div class="detail-text">
-                                <span>official@mysawah.id</span>
-                            </div>
-                        </div>
-
-                        <div class="detail-item">
-                            <div class="icon-box">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="detail-text">
-                                <span>Universitas Nusantara PGRI Kediri,<br>Jalan Ahmad Yani, Kediri</span>
-                            </div>
-                        </div>
-
-                        <div class="detail-item">
-                            <div class="icon-box">
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                            <div class="detail-text">
-                                <span>+62 812-3456-7890</span>
-                            </div>
-                        </div>
-                    </div>
-
+            <div class="contact-details">
+              <div class="detail-item">
+                <div class="icon-box">
+                  <i class="far fa-envelope"></i>
                 </div>
-
-                <div class="contact-form-wrapper">
-                    <form class="clean-form">
-                        <div class="input-group">
-                            <label>Nama Lengkap</label>
-                            <input type="text" placeholder="Isi nama lengkap Anda..." required>
-                        </div>
-
-                        <div class="input-group">
-                            <label>Email</label>
-                            <input type="email" placeholder="alamat@gmail.com" required>
-                        </div>
-
-                        <div class="input-group">
-                            <label>Pesan</label>
-                            <textarea rows="2" placeholder="Tulis pesan Anda di sini..." required></textarea>
-                        </div>
-
-                        <button type="submit" class="btn-submit-gradient">
-                            Kirim Pesan Sekarang
-                        </button>
-                    </form>
+                <div class="detail-text">
+                  <span>official@mysawah.id</span>
                 </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="icon-box">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="detail-text">
+                  <span
+                    >Universitas Nusantara PGRI Kediri,<br />Jalan Ahmad Yani,
+                    Kediri</span
+                  >
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="icon-box">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="detail-text">
+                  <span>+62 812-3456-7890</span>
+                </div>
+              </div>
             </div>
+          </div>
 
+          <div class="contact-form-wrapper">
+            <form class="clean-form">
+              <div class="input-group">
+                <label>Nama Lengkap</label>
+                <input
+                  type="text"
+                  placeholder="Isi nama lengkap Anda..."
+                  required
+                />
+              </div>
+
+              <div class="input-group">
+                <label>Email</label>
+                <input type="email" placeholder="alamat@gmail.com" required />
+              </div>
+
+              <div class="input-group">
+                <label>Pesan</label>
+                <textarea
+                  rows="2"
+                  placeholder="Tulis pesan Anda di sini..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit-gradient">
+                Kirim Pesan Sekarang
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <footer id="footer-section">
-        <div class="container">
-            
-            <div class="footer-top">
-                <div class="footer-col brand-col">
-                    <h3 class="footer-logo">MySawah</h3>
-                    <p class="footer-desc">Solusi teknologi pertanian masa depan untuk hasil panen yang lebih maksimal.</p>
-                    
-                    <div class="footer-contact-info">
-                        <p><i class="far fa-envelope"></i> official@mysawah.id</p>
-                        <p><i class="fas fa-phone-alt"></i> +62 812-3456-7890</p>
-                    </div>
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-col brand-col">
+            <h3 class="footer-logo">MySawah</h3>
+            <p class="footer-desc">
+              Solusi teknologi pertanian masa depan untuk hasil panen yang lebih
+              maksimal.
+            </p>
 
-                    <div class="footer-socials">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Perusahaan</h4>
-                    <ul>
-                        <li><a href="#">Tentang Kami</a></li>
-                        <li><a href="#">Karir</a></li>
-                        <li><a href="#">Blog Petani</a></li>
-                        <li><a href="#">Mitra Sawah</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Bantuan</h4>
-                    <ul>
-                        <li><a href="#">Pusat Bantuan</a></li>
-                        <li><a href="#">Syarat & Ketentuan</a></li>
-                        <li><a href="#">Kebijakan Privasi</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col download-col">
-                    <h4>Download Aplikasi</h4>
-                    <div class="app-buttons">
-                        <a href="#" class="app-btn">
-                            <i class="fab fa-google-play"></i>
-                            <div>
-                                <span>Get it on</span>
-                                <strong>Google Play</strong>
-                            </div>
-                        </a>
-                        <a href="#" class="app-btn">
-                            <i class="fab fa-apple"></i>
-                            <div>
-                                <span>Download on the</span>
-                                <strong>App Store</strong>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <div class="footer-contact-info">
+              <p><i class="far fa-envelope"></i> official@mysawah.id</p>
+              <p><i class="fas fa-phone-alt"></i> +62 812-3456-7890</p>
             </div>
+
+            <div class="footer-socials">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Perusahaan</h4>
+            <ul>
+              <li><a href="#">Tentang Kami</a></li>
+              <li><a href="#">Karir</a></li>
+              <li><a href="#">Blog Petani</a></li>
+              <li><a href="#">Mitra Sawah</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Bantuan</h4>
+            <ul>
+              <li><a href="#">Pusat Bantuan</a></li>
+              <li><a href="#">Syarat & Ketentuan</a></li>
+              <li><a href="#">Kebijakan Privasi</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col download-col">
+            <h4>Download Aplikasi</h4>
+            <div class="app-buttons">
+              <a href="#" class="app-btn">
+                <i class="fab fa-google-play"></i>
+                <div>
+                  <span>Get it on</span>
+                  <strong>Google Play</strong>
+                </div>
+              </a>
+              <a href="#" class="app-btn">
+                <i class="fab fa-apple"></i>
+                <div>
+                  <span>Download on the</span>
+                  <strong>App Store</strong>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
 
         <div class="footer-bottom">
-            <div class="container">
-                <div class="bottom-content">
-                    <p class="copyright-text">
-                        &copy; 2026 <strong>MySawah Indonesia</strong>. All rights reserved.
-                    </p>
+          <div class="container">
+            <div class="bottom-content">
+              <p class="copyright-text">
+                &copy; 2026 <strong>MySawah Indonesia</strong>. All rights
+                reserved.
+              </p>
 
-                    <div class="bottom-links">
-                        <a href="#">Privacy Policy</a>
-                        <span class="separator">•</span>
-                        <a href="#">Terms of Service</a>
-                        <span class="separator">•</span>
-                        <a href="#">Sitemap</a>
-                    </div>
-                </div>
+              <div class="bottom-links">
+                <a href="#">Privacy Policy</a>
+                <span class="separator">•</span>
+                <a href="#">Terms of Service</a>
+                <span class="separator">•</span>
+                <a href="#">Sitemap</a>
+              </div>
             </div>
+          </div>
         </div>
-
-        </div>
+      </div>
     </footer>
-
-</body>
+  </body>
+  <script src="assets/js/slider.js"></script>
 </html>
